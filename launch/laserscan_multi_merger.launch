@@ -8,7 +8,7 @@ DESCRITPION
         	<param name="destination_frame" value="cart_frame"/>
 		<param name="cloud_destination_topic" value="/merged_cloud"/>
 		<param name="scan_destination_topic" value="/scan_multi"/>
-                <param name="laserscan_topics" value ="/scandx /scansx" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
+                <param name="laserscan_topics" value ="/gazebo_ros_lower_left_lidar_scan/out /gazebo_ros_top_right_lidar_scan/out" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
 
                 <param name="angle_min" value="-2.0"/>
                 <param name="angle_max" value="2.0"/>
