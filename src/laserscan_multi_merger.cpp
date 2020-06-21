@@ -78,7 +78,7 @@ void LaserscanMerger::laserscan_topic_parser()
 	vector<string> tokens;
 	copy(istream_iterator<string>(iss), istream_iterator<string>(), back_inserter<vector<string> >(tokens));
 	vector<string> tmp_input_topics;
-	for(int i=0;i<tokens.size();++i)
+	/*for(int i=0;i<tokens.size();++i)
 	{
         for(int j=0;j<topics.size();++j)
 		{
