@@ -8,7 +8,7 @@ DESCRITPION
         	<param name="destination_frame" value="base_footprint"/>
 		<param name="cloud_destination_topic" value="/merged_cloud"/>
 		<param name="scan_destination_topic" value="/scan_multi"/>
-                <param name="laserscan_topics" value ="/gazebo_ros_lower_left_lidar_scan/out /gazebo_ros_top_right_lidar_scan/out" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
+                <param name="laserscan_topics" value ="/pc2laserscan/top_right_lidar /pc2laserscan/lower_left_lidar" /> <!-- LIST OF THE LASER SCAN TOPICS TO SUBSCRIBE -->
 
                 <param name="angle_min" value="-3.14"/>
                 <param name="angle_max" value="3.14"/>
