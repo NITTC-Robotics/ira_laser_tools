@@ -88,8 +88,8 @@ void LaserscanMerger::laserscan_topic_parser()
 			}
 		}
 	}*/
-	tmp_input_topics.push_back("/pc2laserscan/top_right_lidar");
-	tmp_input_topics.push_back("/pc2laserscan/lower_left_lidar");
+	tmp_input_topics.push_back("/tfed_lower_lidar/lower_left_lidar/pc2");
+	tmp_input_topics.push_back("/tfed_lower_lidar/top_right_lidar/pc2");
 
 	sort(tmp_input_topics.begin(),tmp_input_topics.end());
 	std::vector<string>::iterator last = std::unique(tmp_input_topics.begin(), tmp_input_topics.end());
